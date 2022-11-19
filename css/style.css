@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-width: 280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nonesmall{
+    display: none;
+}
+
+header{
+    min-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: image-set(
+    url("img/small_first_bg.jpg") 720px,
+    url("img/first_bg.jpg") 1920px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo_img{
+    min-height: 14px;
+    vertical-align: middle;
+    display: inline-table;
+}
+
+li{
+    list-style-type: none;
+}
+
+header .nav_text{
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.firstblock{
+    min-height: 547px;
+    background-image: url(../img/small_first_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.firstblock h1{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.firstblock img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    z-index: 5;
+}
+
+.firstblock_hr{
+    border: 2px solid #484C32;
+    width: 100%;
+    position: absolute;
+    top:47%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: -1;
+}
+
+.firstblock .firstblock_title{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.firstblock .firstblock_btn{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 9px 13px;
+    background: #000000;
+    border: none;
+    margin-top: 20px;
+}
+
+.realize{
+    padding-top: 50px;
+    padding-bottom: 54px;
+    min-height: 623px;
+}
+
+.realize_img{
+    width: 100%;
+}
+.realize_text{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.biography{
+    max-height: 437px;
+    background-image: url(../img/small_third_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+}
+
+.biography .biography_text{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.description{
+    min-height: 681px;
+    padding-top: 50px;
+    padding-bottom: 54px;
+}
+
+.description .description_block img{
+    width: 100%;
+}
+
+.description_title{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.description_text p{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.cactus{
+    min-height: 477px;
+    background-image: url(../img/small_bg_kaktus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-top: 50%;
+    bottom: 50%;
+}
+
+.cactus h2{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    vertical-align: middle;
+    display: block;
+    margin-left: 50%;
+    text-align: left;
+}
+
+.cactus span{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    vertical-align: middle;
+    display: block;
+    margin-left: 50%;
+    text-align: left;
+}
+
+.process{
+    min-height: 662px;
+    padding-top: 50px;
+    background-image: url(../img/small_process_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 10px;
+}
+
+.process h3{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.process_text p{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.process_imgblock .process_img1{
+    background-image: url(../img/small_prosho_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.materials{
+    min-height: 1150px;
+    padding: 50px 0;
+}
+
+.materials_block .materials_title h3{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: #000000;  
+}
+
+.materials_items{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.materials_items{
+    display: flex;
+    flex-direction: column;
+}
+
+.material_item h4{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.material_item small{
+    margin-top: 12px;
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    width: 82%;
+    display: block;
+}
+
+.material_item img{
+    display: block;
+    width: 50%;
+    margin-top: 16px;
+}
+
+.last_section{
+    background-image: url(../img/small_last_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 320px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.last_section h2{
+    vertical-align: bottom;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: #000000;
+}
+
+footer{
+    background: rgba(95, 98, 76, 0.4);
+    min-height: 279px;
+    padding: 50px 20px 30px 20px;
+}
+
+.footer_title{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.footer_main button{
+    background: #000000;
+    padding: 9px 28px;
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    display: inline;
+}
+
+.footer_first{
+    margin-bottom: 16px;
+}
+
+.footer_button{
+    display: inline;
+}
+
+.social_items{
+    display: inline-block;
+}
+
+.footer_third{
+    display: inline;
+}
+
+.footer_social{
+    display: inline;
+    margin-left: 22px;
+}
+
+.social_items{
+    display: inline;
+    margin-top: 16px;
+    vertical-align: middle;
+}
+
+.social_items img{
+    width: 10%;
+}
+
+.contacts{
+    margin-top: 20px;
+}
+.contacts li {
+    margin-top: 10px;
+}
+
+.contacts li a{
+    text-decoration: none;
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+@media (min-width: 359px){
+    .process_imgblock .process_img1{
+        height: 60vh;
+    }
+}
+
+@media (min-width: 440px){
+    .process_imgblock .process_img1{
+        height: 70vh;
+    }    
+}
